@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(47, 47, 214, 0.832);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.838);
+    height: 700px;
+    width: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    border-radius: 10px;
+    
+    
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+.cell{
+    height: 90px;
+    width: 90px;
+    margin: 1%;
+    text-align: center;
+    padding: 20px;
+    
+    background-color:white;
+    border-radius: 10px;
+   border-style:solid;
+   border-color:rgba(128, 128, 128, 0.315);
+   text-align: right;
+   margin-left: 20px;
+   font-size: 75px;
+   text-align: center;
+   font-weight: bold;
+   
+}
+
+#restartButton{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(15, 220, 15);
+    border-style: none;
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+
+#yadav{
+    margin: 100px;
+    height: 400px;
+    width: 250px;
+}
